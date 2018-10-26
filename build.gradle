@@ -4,6 +4,7 @@ apply plugin: 'signing'
 apply plugin: 'jacoco'
 
 repositories {
+    maven { url 'http://repo.jenkins-ci.org/releases/' }
     mavenCentral()
 }
 
